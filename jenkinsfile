@@ -1,0 +1,30 @@
+pipeline {
+    agent {
+        kubernetes {
+            yaml """
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    jenkins: slave-qd
+spec:
+  containers:
+  - name: busybox
+    image: busybox:1.28.3
+    args:
+      - sleep
+      - "600"
+ """
+        }
+    }
+
+  stages {
+    stage('Stage 1: Hello') {
+      steps {
+        script {
+          println "Hello"
+          }
+          }
+        }
+      }
+}
