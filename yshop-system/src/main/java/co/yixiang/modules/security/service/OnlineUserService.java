@@ -2,6 +2,7 @@ package co.yixiang.modules.security.service;
 
 import co.yixiang.modules.security.config.SecurityProperties;
 import co.yixiang.utils.*;
+import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
 import co.yixiang.modules.security.security.vo.JwtUser;
 import co.yixiang.modules.security.security.vo.OnlineUser;
@@ -80,7 +81,7 @@ public class OnlineUserService {
         Collections.reverse(keys);
         List<OnlineUser> onlineUsers = new ArrayList<>();
         for (String key : keys) {
-            OnlineUser onlineUser = (OnlineUser) redisUtils.get(key);
+            OnlineUser onlineUser = JSON.parseObject(redisUtils.getString(key),OnlineUser.class);
             if(StringUtils.isNotBlank(filter)){
                 if(onlineUser.toString().contains(filter)){
                     onlineUsers.add(onlineUser);
