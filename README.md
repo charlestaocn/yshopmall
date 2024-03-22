@@ -1,21 +1,7 @@
-###  **[B2C微服务系统、B2B2C多商户系统、餐饮点餐系统，请移步](https://www.dayouqiantu.cn)** 
-
-
-
 <h1 style="text-align: center">yshop意象商城系统</h1>
 
 #### 项目简介
 yshop基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含分类、sku、运费模板、素材库、小程序直播、拼团、砍价、商户管理、 秒杀、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
-
-
-
-# 官网体验地址（里面有演示地址与文档）
-|  官网文档地址  |  https://www.dayouqiantu.cn |
-|---|---|
-| 管理后台演示地址：  |   https://demo2.yixiang.co |
-| 关注公众号点击单商户体验小程序与H5  |  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0121/154904_12c09826_477893.png) |
-
-
 
 #### 核心依赖
 
@@ -72,7 +58,7 @@ git clone https://gitee.com/guchengwuyue/yshopmall.git
 
 2、下载代码
 ```
-git clone https://gitee.com/guchengwuyue/yshopmall_qd
+git clone https://gitee.com/jjyu-keji/yshopmall_qd.git
 ```
 3、cnpm install或者yarn install,当前所有命令必须当前工程目录下进行，目录结构如下：
 
@@ -330,11 +316,6 @@ server
     * 2.2 Element
     * 2.3 uniapp
 
-
-
-	
-#### 反馈交流
-- 喜欢这个商城后台的小伙伴留下你的小星星啦,star,star哦！
 
 ####  特别鸣谢
 - eladmin:https://github.com/elunez/eladmin
