@@ -1,3 +1,7 @@
+###  **[B2C微服务系统、B2B2C多商户系统、餐饮点餐系统，请移步](https://www.yixiang.co)** 
+
+
+
 <h1 style="text-align: center">yshop意象商城系统</h1>
 
 #### 项目简介
@@ -11,17 +15,13 @@ yshop基于当前流行技术组合的前后端分离商城系统： SpringBoot2
 | 管理后台演示地址：  |   https://demo2.yixiang.co |
 | 关注公众号点击单商户体验小程序与H5  |  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0121/154904_12c09826_477893.png) |
 
-####  重要通知
-关于log4j2漏洞说明
-- 方式一：拉最新的代码，重新打包运行应用
-- 方式二：不更新代码，直接加启动参数，如下：
-- java -Dlog4j2.formatMsgNoLookups=true -jar yshop-admin-2.3.jar
+
 
 #### 核心依赖
 
 | 依赖              | 版本     |
 |-----------------|--------|
-| Spring Boot     | 2.7.10 |
+| Spring Boot     | 2.7.x |
 | weixin-java     | 4.4.0  |
 | Spring Security | 2.7.10 |
 | Mybatis Plus    | 3.5.2  |
@@ -48,7 +48,8 @@ git clone https://gitee.com/guchengwuyue/yshopmall.git
 ```
 3、idea打开项目加载依赖目录如下：
 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/163004_833fc53d_477893.png "test1.png")
+![输入图片说明](1.png)
+
 
 4、导入数据库，配置开发环境数据库信息及其redis信息，文件路径如下：
 
