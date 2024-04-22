@@ -3,25 +3,11 @@
 #### 项目简介
 yshop基于当前流行技术组合的前后端分离商城系统： SpringBoot2+MybatisPlus+SpringSecurity+jwt+redis+Vue的前后端分离的商城系统， 包含分类、sku、运费模板、素材库、小程序直播、拼团、砍价、商户管理、 秒杀、优惠券、积分、分销、会员、充值、多门店等功能，更适合企业或个人二次开发；
 
-
-
-# 官网体验地址（里面有演示地址与文档）
-|  官网文档地址  |  https://www.yixiang.co |
-|---|---|
-| 管理后台演示地址：  |   https://demo2.yixiang.co |
-| 关注公众号点击单商户体验小程序与H5  |  ![输入图片说明](https://images.gitee.com/uploads/images/2021/0121/154904_12c09826_477893.png) |
-
-####  重要通知
-关于log4j2漏洞说明
-- 方式一：拉最新的代码，重新打包运行应用
-- 方式二：不更新代码，直接加启动参数，如下：
-- java -Dlog4j2.formatMsgNoLookups=true -jar yshop-admin-2.3.jar
-
 #### 核心依赖
 
 | 依赖              | 版本     |
 |-----------------|--------|
-| Spring Boot     | 2.7.10 |
+| Spring Boot     | 2.7.x |
 | weixin-java     | 4.4.0  |
 | Spring Security | 2.7.10 |
 | Mybatis Plus    | 3.5.2  |
@@ -48,7 +34,8 @@ git clone https://gitee.com/guchengwuyue/yshopmall.git
 ```
 3、idea打开项目加载依赖目录如下：
 
-![输入图片说明](https://images.gitee.com/uploads/images/2021/0811/163004_833fc53d_477893.png "test1.png")
+![输入图片说明](1.png)
+
 
 4、导入数据库，配置开发环境数据库信息及其redis信息，文件路径如下：
 
@@ -71,7 +58,7 @@ git clone https://gitee.com/guchengwuyue/yshopmall.git
 
 2、下载代码
 ```
-git clone https://gitee.com/guchengwuyue/yshopmall_qd
+git clone https://gitee.com/jjyu-keji/yshopmall_qd.git
 ```
 3、cnpm install或者yarn install,当前所有命令必须当前工程目录下进行，目录结构如下：
 
@@ -253,13 +240,6 @@ server
   ```
 
 # 项目说明
-#### 项目源码
-
-|     |  后台系统源码 |   后台系统前端源码  |
-|---  |--- | --- |
-|   码云  |  https://gitee.com/guchengwuyue/yshopmall  | https://gitee.com/guchengwuyue/yshopmall_qd |
-|   github   |  https://github.com/guchengwuyue/yshopmall |https://github.com/guchengwuyue/yshopmall_qd  |
-
 
 
 ### 商城功能
@@ -329,11 +309,6 @@ server
     * 2.2 Element
     * 2.3 uniapp
 
-
-
-	
-#### 反馈交流
-- 喜欢这个商城后台的小伙伴留下你的小星星啦,star,star哦！
 
 ####  特别鸣谢
 - eladmin:https://github.com/elunez/eladmin
